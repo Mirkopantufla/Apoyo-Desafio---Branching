@@ -48,12 +48,28 @@ form {
   letter-spacing: 2px;
 }
 
-.btn:hover {
+.btn-title {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  color: white;
+  background-color: #676264;
+  padding: 20px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 6px #2E282A;
+}
+
+.btn:hover,
+.btn-title:hover {
   box-shadow: 0 4px #2E282A;
   top: 2px;
 }
 
-.btn:active {
+.btn:active,
+.btn-title:hover {
   box-shadow: none;
   top: 6px;
 }
